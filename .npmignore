@@ -1,0 +1,31 @@
+# .npmignore
+
+# Ignore all tests and test directories
+test/
+tests/
+**/__tests__/
+
+# Ignore documentation
+docs/
+
+# Ignore CI/CD config
+.circleci/
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Ignore development tools and configs
+package-lock.json
+yarn.lock
+*.log
+.nyc_output
+*.code-workspace
+
+# Ignore editor directories
+.idea/
+.vscode/
+
+# Any build or temp directories
+build/
+dist/
+tmp/
